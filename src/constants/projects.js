@@ -1,7 +1,7 @@
 const projects = [
     {
       name: "Bouncy Ghost",
-      icon: process.env.PUBLIC_URL +  "/projects/ghost.png",
+      icon:  "%PUBLIC_URL%/projects/ghost.png",
       details: "Replica of the flappy bird game built using the pygame library available in python.",
       tech:"Pygame + Python",
       private: false,
@@ -9,7 +9,7 @@ const projects = [
     },
     {
       name: "Food Delivery Website",
-      icon: process.env.PUBLIC_URL + "/projects/food.png",
+      icon: "/%PUBLIC_URL%projects/food.png",
       details: "Website developed using MERN stack. Customers can place orders and Riders can accept orders",
       tech:"MERN",
       private: false,
@@ -17,7 +17,7 @@ const projects = [
     },
     {
       name: "Country Graph",
-      icon: process.env.PUBLIC_URL + "/projects/country.png",
+      icon: "/%PUBLIC_URL%projects/country.png",
       details: "The software uses graph Data Structure to Connect Countries and find land paths",
       tech:"C++",
       private: false,
@@ -25,7 +25,7 @@ const projects = [
     },
     {
       name: "Pong",
-      icon: process.env.PUBLIC_URL + "/projects/pong.png",
+      icon: "/%PUBLIC_URL%projects/pong.png",
       details: "Replica of Pong game developed in MASM",
       tech:"Pygame + Python",
       private: false,
@@ -33,7 +33,7 @@ const projects = [
     },
     {
       name: "Terminal",
-      icon: process.env.PUBLIC_URL + "/projects/terminal.png",
+      icon: "/%PUBLIC_URL%projects/terminal.png",
       details: "Shell Terminal for Ubuntu system made in C++",
       tech:"Ubuntu + C++",
       private: false,

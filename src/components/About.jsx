@@ -19,7 +19,7 @@ const About = () => {
               </div>
               <div className='flex justify-center items-center'>
                 
-                  <img src={process.env.PUBLIC_URL + '/img/hamza2.jpg'} className='w-[30%] md:w-[50%] rounded-3xl hover:scale-105 duration-300 shadow-2xl'/>
+                  <img src='%PUBLIC_URL%/img/hamza2.jpg' className='w-[30%] md:w-[50%] rounded-3xl hover:scale-105 duration-300 shadow-2xl'/>
                 
               </div>
             </div>
