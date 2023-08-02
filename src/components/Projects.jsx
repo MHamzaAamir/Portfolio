@@ -16,7 +16,6 @@ const Projects = () => {
                 <img className='w-[50%] mb-2' src={`${project.icon}`} />
                 <div className='h-[120px] text-center'>{project.details}</div>
                 <div>
-                  {/* <button className='px-2 py-1 bg-purple-900 text-white'>Details</button> */}
                   <a href={`${project.link}`} target='_blank' className={`${project.private ? 'disabled-link' : ''}` + "  px-2 py-1 bg-purple-900 text-white"}>Code</a>
                 </div>
               </div>

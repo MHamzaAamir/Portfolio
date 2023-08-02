@@ -17,9 +17,9 @@ const Hero = () => {
             </div>
             <a target='_blank' href='https://drive.google.com/drive/folders/10OK5ke_k-Nq7udz5Ejvcd9M1G6nloKPA?usp=sharing' className='py-1 px-2 mt-2 md:px-5 md:py-2 border-2 border-white from-black to-purple-800 bg-gradient-to-l text-sm sm:text-lg md:text-xl '>Download CV</a>
             <div className='flex justify-center items-center gap-2 md:gap-4 mt-4'>
-              <a href='https://wa.me/03090215742' target='_blank'><img className='cursor-pointer w-4 md:w-8' src='/img/whatsapp.png'/></a>
-              <a href='mailto:hamza.aamir.rasheed2@gmail.com' target='_blank'><img className=' cursor-pointer w-4 md:w-8' src='/img/mail.png'/></a>
-              <a href='https://www.linkedin.com/in/muhammad-hamza-aamir-201874269' target='_blank'><img className=' cursor-pointer w-3 md:w-7' src='/img/linkedin.png'/></a>
+              <a href='https://wa.me/03090215742' target='_blank'><img className='cursor-pointer w-4 md:w-8' src= {process.env.PUBLIC_URL + '/img/whatsapp.png'}/></a>
+              <a href='mailto:hamza.aamir.rasheed2@gmail.com' target='_blank'><img className=' cursor-pointer w-4 md:w-8' src= {process.env.PUBLIC_URL + '/img/mail.png'}/></a>
+              <a href='https://www.linkedin.com/in/muhammad-hamza-aamir-201874269' target='_blank'><img className=' cursor-pointer w-3 md:w-7' src= {process.env.PUBLIC_URL + '/img/linkedin.png'}/></a>
             </div>
         </div>
     </div>
