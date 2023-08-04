@@ -37,10 +37,12 @@ const Education = () => {
 
   return (
     <Element name = "education">
-      <div className='min-h-screen w-screen from-black to-purple-950 bg-gradient-to-b bg-center bg-cover' style={{backgroundImage:"url('./img/bgpurple.jpg')"}}>
+      <div className=' w-screen  bg-center bg-cover' >
         <div className='mx-auto max-w-[1240px] w-[100%] h-[100%] py-20 px-10 flex items-start edu:items-center flex-col'>
             <div className='text-white font-bold text-xl edu:text-5xl text-center md:text-3xl border-b-4 py-4 border-white'>My Educational Journery</div>
-            <VerticalTimeline>
+            <VerticalTimeline
+              animate = {false}
+            >
               {
                 educations.map((education,index)=>(
                   <EducationCard key = {index} education = {education}/>

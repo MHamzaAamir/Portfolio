@@ -8,13 +8,13 @@ const Skills = () => {
 
   return (
     <Element name = "skills">
-        <div className='w-screen bg-gradient-to-b from-purple-950 to-black text-white bg-center bg-cover' style={{backgroundImage:"url('./img/bgpurple.jpg')"}}>
+        <div className='w-screen  text-white bg-center bg-cover'>
             <div className='max-w-[1240px] mx-auto px-10 py-20 '>
               <div className='text-2xl md:text-5xl font-bold mb-10'>Skills</div>
               <div className='flex flex-wrap gap-9 justify-center items-center'>
               {
                 skills.map((skill)=>(
-                  <div className='w-28 h-28' key={skill.name}>
+                  <div className='w-20 h-20 md:w-28 md:h-28' key={skill.name}>
                     <BallCanvas icon = {skill.icon}/>
                   </div>
                 ))

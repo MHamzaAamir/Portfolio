@@ -6,7 +6,7 @@ const Projects = () => {
   
   return (
     <Element name="projects">
-      <div className='min-h-screen w-screen bg-center bg-cover' style={{ backgroundImage: "url('./img/bgpurple.jpg')" }}>
+      <div className='w-screen bg-center bg-cover' >
         <div className='mx-auto max-w-[1240px] px-10 py-32 text-white'>
           <div className='text-2xl md:text-5xl font-bold mb-10'>My Projects</div>
           <div className='flex flex-wrap justify-center gap-6 '>

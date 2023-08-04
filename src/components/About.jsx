@@ -5,7 +5,7 @@ import { Element } from 'react-scroll'
 const About = () => {
   return (
     <Element name = "about">
-        <div className='w-screen h-screen bg-gradient-to-b from-[black] to-purple-950 text-white bg-cover bg-center' style={{backgroundImage:"url('./img/bgpurple.jpg')"}}>
+        <div className='w-screen h-screen  text-white bg-cover bg-center' >
           <div className='max-w-[1240px] mx-auto flex justify-center items-center h-[100%] px-5 py-20'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
               <div className='flex flex-col'>
@@ -19,7 +19,7 @@ const About = () => {
               </div>
               <div className='flex justify-center items-center'>
                 
-                  <img src='%PUBLIC_URL%/img/hamza2.jpg' className='w-[30%] md:w-[50%] rounded-3xl hover:scale-105 duration-300 shadow-2xl'/>
+                  <img src='/img/hamza.jpg' className='w-[30%] md:w-[50%] rounded-3xl hover:scale-105 duration-300 shadow-2xl'/>
                 
               </div>
             </div>

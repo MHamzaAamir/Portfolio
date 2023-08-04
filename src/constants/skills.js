@@ -1,68 +1,35 @@
 const skills = [
     {
-        icon:  "%PUBLIC_URL%/tech/threejs.png",
-        name:"Three JS",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/java.png",
+        icon:  "/tech/java.png",
         name:"Java",
-        negative:false
     },
     {
-        icon:  "%PUBLIC_URL%/tech/express.png",
-        name:"Express",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/reactjs.png",
-        name:"React JS",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/python.png",
-        name:"Python",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/cpp.png",
+        icon:  "/tech/cpp.png",
         name:"C++",
-        negative:false
     },
     {
-        icon:  "%PUBLIC_URL%/tech/mongodb.png",
+        icon:  "/tech/python.png",
+        name:"Python",
+    },
+    {
+        icon:  "/tech/mongodb.png",
         name:"MongoDB",
-        negative:false
     },
     {
-        icon:  "%PUBLIC_URL%/tech/tailwind.png",
-        name:"TailwindCSS",
-        negative:false
+        icon:  "/tech/express.png",
+        name:"Express",
     },
     {
-        icon:  "%PUBLIC_URL%/tech/css.png",
-        name:"CSS",
-        negative:false
+        icon:  "/tech/reactjs.png",
+        name:"React JS",
     },
     {
-        icon:  "%PUBLIC_URL%/tech/html.png",
-        name:"HTML",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/javascript.png",
-        name:"JavaScript",
-        negative:false
-    },
-    {
-        icon:  "%PUBLIC_URL%/tech/nodejs.png",
+        icon:  "/tech/nodejs.png",
         name:"Node JS",
-        negative:false
     },
     {
-        icon:  "%PUBLIC_URL%/tech/git.png",
-        name:"Git",
-        negative:false
+        icon:  "/tech/tailwind.png",
+        name:"TailwindCSS",
     },
     
 ]
