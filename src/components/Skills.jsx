@@ -14,7 +14,7 @@ const Skills = () => {
               <div className='flex flex-wrap gap-9 justify-center items-center'>
               {
                 skills.map((skill)=>(
-                  <div className='w-20 h-20 md:w-28 md:h-28' key={skill.name}>
+                  <div className='w-24 h-24 md:w-28 md:h-28' key={skill.name}>
                     <BallCanvas icon = {skill.icon}/>
                   </div>
                 ))
