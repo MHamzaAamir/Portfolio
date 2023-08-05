@@ -8,8 +8,8 @@ const Skills = () => {
 
   return (
     <Element name = "skills">
-        <div className='w-screen  text-white bg-center bg-cover'>
-            <div className='max-w-[1240px] mx-auto px-10 py-20 '>
+        <div className='w-screen text-white bg-center bg-cover'>
+            <div className='max-w-[1240px] mx-auto px-10 py-5 md:py-14 '>
               <div className='text-2xl md:text-5xl font-bold mb-10'>Skills</div>
               <div className='flex flex-wrap gap-9 justify-center items-center'>
               {

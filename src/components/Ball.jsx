@@ -28,9 +28,12 @@ const Ball = (props) => {
     </Float>
   )
 }
+ 
 
 
 const BallCanvas = ({icon}) =>{
+
+
     return(
         <Canvas
             frameLoop='demand'
@@ -38,7 +41,15 @@ const BallCanvas = ({icon}) =>{
         >
             <Suspense fallback={null}>
                 <OrbitControls
+                    enableDamping = {true}
+                    maxPolarAngle={3*Math.PI/4}
+                    minPolarAngle={Math.PI/4}
+
+                    minAzimuthAngle={-Math.PI / 4} // Minimum azimuth angle: -45 degrees (clockwise from the north direction)
+                    maxAzimuthAngle={Math.PI / 4} // Maximum azimuth angle: 45 degrees (counterclockwise from the north direction)
                     enableZoom={false}
+
+                    rotateSpeed ={0.1}
                 />
                 <Ball imgUrl = {icon}/>
             </Suspense>

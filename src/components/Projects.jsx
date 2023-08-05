@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <Element name="projects">
       <div className='w-screen bg-center bg-cover' >
-        <div className='mx-auto max-w-[1240px] px-10 py-32 text-white'>
+        <div className='mx-auto max-w-[1240px] px-10 py-8 md:pt-14 pb-44 text-white'>
           <div className='text-2xl md:text-5xl font-bold mb-10'>My Projects</div>
           <div className='flex flex-wrap justify-center gap-6 '>
             {projects.map((project, index) => (

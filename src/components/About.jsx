@@ -5,8 +5,8 @@ import { Element } from 'react-scroll'
 const About = () => {
   return (
     <Element name = "about">
-        <div className='w-screen h-screen  text-white bg-cover bg-center' >
-          <div className='max-w-[1240px] mx-auto flex justify-center items-center h-[100%] px-5 py-20'>
+        <div className='w-screen   text-white bg-cover bg-center' >
+          <div className='max-w-[1240px] mx-auto flex justify-center items-center h-[100%] px-5 py-5 md:py-14'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
               <div className='flex flex-col'>
                 <div className='text-2xl md:text-5xl font-bold'>
